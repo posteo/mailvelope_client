@@ -1,0 +1,6 @@
+<?php
+
+// Base-URL for the public-key-API. Prefix this with https://posteo.de if you
+// don't want to proxy requests through your server.
+
+$config['mailvelope_client_pubkeyapi_url'] = 'https://api.posteo.de/v1/public_keys?type=open_pgp';
